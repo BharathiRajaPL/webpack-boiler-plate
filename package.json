@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/BharathiRajaPL/webpack-boiler-plate/issues"
   },
-  "homepage": "https://github.com/BharathiRajaPL/webpack-boiler-plate#readme"
+  "homepage": "https://github.com/BharathiRajaPL/webpack-boiler-plate#readme",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
 }
