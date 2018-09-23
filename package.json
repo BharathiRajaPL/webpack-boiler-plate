@@ -1,0 +1,19 @@
+{
+  "name": "webpack-boiler-plate",
+  "version": "1.0.0",
+  "description": "Webpack boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BharathiRajaPL/webpack-boiler-plate.git"
+  },
+  "author": "Bharathi Raja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BharathiRajaPL/webpack-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/BharathiRajaPL/webpack-boiler-plate#readme"
+}
