@@ -1,0 +1,90 @@
+.overlay {
+	background: rgba(0,0,0,0.85);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+}
+.lightbox {
+	background: #e0e0e0;
+	box-sizing: border-box;
+	left: 50%;
+	margin: auto;
+	padding: 36px 70px 45px 70px;
+	position: fixed;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 762px;
+	height: 513px;
+	z-index: 10001;
+	}
+	.imagePanel {
+	background: #e0e0e0;
+	box-sizing: border-box;
+	left: 50%;
+	margin: auto;
+	position: fixed;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 662px;
+	height: 413px;
+	z-index: 10001;
+	
+}
+.imageCaption {
+	position:fixed;
+	top:10px;
+	font-size: 16px;
+	text-align: center;padding-left:180px;
+}
+.prev {
+	
+	position:fixed;
+	cursor: pointer;
+	left:10px;
+	top: 0px;
+	z-index:10002;
+	}
+.next {
+	
+	position:fixed;
+	cursor: pointer;
+	right:10px;
+	top: 0px;
+	z-index:10002;
+}
+.fade-appear {
+	opacity: 0;
+	z-index: 1;
+}
+
+.fade-appear.fade-appear-active {
+	opacity: 1;
+	transition: opacity 100ms ;
+}
+
+.fade-enter {
+	opacity: 0;
+	z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+	
+	opacity: 1;
+	transition: opacity 100ms ;
+}
+.fade-exit {
+	opacity:1;
+
+}
+.fade-exit.fade-exit-active {
+	opacity:0;
+	transition: opacity 100ms ;
+	
+}
+.fade-exit-done {
+	opacity:0;
+}
