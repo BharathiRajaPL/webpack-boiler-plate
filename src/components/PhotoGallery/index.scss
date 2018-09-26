@@ -1,0 +1,65 @@
+.PhotoGallery {
+	&__Panel {
+	
+    
+	}
+
+
+}
+
+.grid { 
+margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+    transition: all .4s ease-in;
+    
+    &:after {
+      opacity: 0;
+      transition: all .4s ease-out;
+
+    }
+  }
+}
+.fade-appear {
+	opacity: 0;
+	z-index: 1;
+}
+
+.fade-appear.fade-appear-active {
+	opacity: 1;
+	transition: opacity 500ms linear;
+}
+
+.fade-enter {
+	opacity: 0;
+	z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+	
+	opacity: 1;
+	transition: opacity 500ms linear;
+}
+
+.fade-exit {
+	opacity:1;
+
+}
+.fade-exit.fade-exit-active {
+	opacity:0;
+	transition: opacity 500ms linear;
+	
+}
+.fade-exit-done {
+	opacity:0;
+}
